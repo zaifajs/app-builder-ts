@@ -550,7 +550,7 @@ export default Vue.extend ({
 			padding-bottom: 1.5rem;
 			margin: 0 auto;
 		}
-		/deep/ .el-button {
+		::v-deep .el-button {
 			margin: 2.5rem auto;
 		}
 	}

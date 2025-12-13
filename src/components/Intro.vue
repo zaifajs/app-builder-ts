@@ -113,7 +113,7 @@ export default Vue.extend ({
 			display: block;
 			margin: 3rem auto 8rem;
 		}
-		/deep/ .el-button {
+		::v-deep .el-button {
 			margin: 4rem auto;
 		}
 	}

@@ -378,7 +378,7 @@ $box-shadow: 0 3rem 2rem 0 rgba(0,0,0,0.1);
 				}
 			}
 		}
-		/deep/ .el-button {
+		::v-deep .el-button {
 			position: relative;
 			top: 2.5rem;
 		}
