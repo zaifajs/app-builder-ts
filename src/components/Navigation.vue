@@ -80,8 +80,8 @@ export default Vue.extend({
 
 
 <style lang="scss" scoped>
-@import "../assets/sass/config";
-@import "../assets/sass/media";
+@use "../assets/sass/config" as *;
+@use "../assets/sass/media" as *;
 
 	.navigation {
 		display: flex;

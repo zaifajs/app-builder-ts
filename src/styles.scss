@@ -1,4 +1,4 @@
-@import "../src/assets/sass/structure";
-@import "../src/assets/sass/fonts";
-@import "../src/assets/sass/config";
-@import "../src/assets/sass/media";
+@use "../src/assets/sass/structure" as *;
+@use "../src/assets/sass/fonts" as *;
+@use "../src/assets/sass/config" as *;
+@use "../src/assets/sass/media" as *;

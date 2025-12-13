@@ -38,8 +38,9 @@ export default Vue.extend ({
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/sass/media";
-@import "../assets/sass/config";
+@use "sass:color";
+@use "../assets/sass/media" as *;
+@use "../assets/sass/config" as *;
 
 .el-button {
 	display: flex;
@@ -72,7 +73,7 @@ export default Vue.extend ({
 	&:hover,
 	&:active {
 		outline: 0;
-		background-color: lighten( $color-main, 5% );
+		background-color: color.adjust($color-main, $lightness: 5%);
 
 	}
 }

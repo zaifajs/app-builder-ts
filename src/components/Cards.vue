@@ -206,8 +206,8 @@ export default Vue.extend ({
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/sass/media";
-@import "../assets/sass/config";
+@use "../assets/sass/media" as *;
+@use "../assets/sass/config" as *;
 
 .cards-wrapper {
 	display: block;
